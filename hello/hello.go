@@ -15,7 +15,7 @@ func main() {
 	log.SetFlags(0)              // las flags son marcas de tiempo, la 0 desahabilita el tiempo, luego poniendo diferentes numeros agrega diferentes formatos de tiempo
 
 	// Request a greeting message.
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Gladys")
 	// If an error was returned, print it to the console and
 	// exit the program.
 	if err != nil {
